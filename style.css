@@ -15,3 +15,18 @@ main{margin-left:var(--sidebar)}.section{max-width:1190px;padding:65px 62px 70px
 .home-heading{display:flex;justify-content:space-between;align-items:flex-start;gap:32px}.home-heading>div{min-width:0}.institution-logo{display:block;flex:0 1 360px;width:360px;max-width:42%;margin-top:12px}.institution-logo img{display:block;width:100%;height:auto}
 @media(max-width:1100px){.home-heading{flex-direction:column;gap:14px;margin-bottom:22px}.institution-logo{flex:none;width:340px;max-width:100%;margin-top:0}}
 @media(max-width:480px){.institution-logo{width:100%;max-width:320px}}
+
+/* Personal academic layout */
+body{font-family:Georgia,'Times New Roman',serif;line-height:1.75}
+h1,h2,h3,h4,.role,.sidebar-name{font-family:Arial,Helvetica,sans-serif}
+h1{font-weight:700;letter-spacing:-.045em}h2{font-size:1.9rem;color:var(--navy);letter-spacing:-.035em}h3{font-size:1.12rem}
+.sidebar{background:#f2f5f9;color:var(--ink);border-right:1px solid #dde4ef;justify-content:flex-start;align-items:stretch;padding:42px 25px}
+.sidebar-profile{padding:0 9px}.portrait{width:128px;height:158px;border-radius:10px;border:0;object-position:center 40%;box-shadow:0 4px 16px #07307215}
+.sidebar-name{color:var(--navy);font-weight:700;font-size:1.12rem;margin-top:18px}.sidebar-affiliation{color:#5a6b83;font-size:.71rem;letter-spacing:.06em;margin-bottom:30px}
+.nav-links{text-align:left}.nav-links a{color:#48586e;font-size:.89rem;letter-spacing:0;text-transform:none;font-weight:500;padding:10px 12px;border-left:3px solid transparent}
+.nav-links a:hover{color:var(--navy);background:#e8eef7}.nav-links a[aria-current]{color:var(--navy);background:#e1eaf7;border-radius:0 5px 5px 0;border-left-color:var(--navy);font-weight:700}
+.home{min-height:auto;padding-bottom:64px}.home-heading{border-top:3px solid var(--navy);padding-top:22px;margin-bottom:8px}.intro{max-width:870px}
+.news{border-collapse:separate;border-spacing:0 8px}.news tr:nth-child(odd){background:transparent}.news td,.news tr:first-child td{border-top:0;border-bottom:0;background:#f3f6fa;padding:14px 16px}.news td:first-child{border-left:3px solid #a5bddf;font-family:Arial,sans-serif;font-size:.8rem;font-weight:700;color:var(--navy)}
+.section{padding-top:54px}.profile-links a{font-family:Arial,sans-serif;font-size:.85rem}
+@media(max-height:720px) and (min-width:761px){.sidebar{padding-top:25px}.portrait{width:104px;height:128px}.sidebar-affiliation{margin-bottom:16px}.nav-links a{padding-top:8px;padding-bottom:8px}}
+@media(max-width:760px){.sidebar{padding:0;border-right:0;border-bottom:1px solid #dde4ef}.mobile-header{background:#f2f5f9;color:var(--navy)}.mobile-name{color:var(--navy);font-family:Arial,sans-serif}.menu-toggle{color:var(--navy);border-color:#aabbd3}.nav-links{justify-content:flex-start;text-align:left}.nav-links a{font-size:.82rem}.home-heading{padding-top:18px}.section{padding-top:36px}.news td{padding:10px}.home{padding-bottom:42px}}
